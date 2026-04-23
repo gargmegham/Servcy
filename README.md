@@ -189,36 +189,20 @@ Notes:
 - The frontend shipped with a pragmatic mix of custom UI, Tailwind, Ant Design, and MUI. That accelerated delivery but created a real consistency tax.
 - Self-hosting is possible, but not trivial. Once you add Postgres, Redis, workers, object storage, provider credentials, and billing, this stops looking like a demo very quickly.
 
-## What didn't work
-- Treating integrations like feature checkboxes was naive. Every serious integration behaved like a product of its own.
-- I underestimated the maintenance cost of custom editor surfaces. They were differentiating, but expensive in polish, compatibility, and QA.
-- Automated coverage did not grow as fast as the feature set. Too much confidence still came from manual regression testing across permissions, billing, and integrations.
-- Some frontend decisions were optimized for shipping speed instead of long-term coherence. That made the product real faster, but the design-system debt is visible.
-- Early AI work was most useful when constrained to specific actions. Broad assistant-style positioning was less valuable than targeted help inside existing workflows.
+## What didn’t work
+- Distribution was the biggest gap. I spent most of the early phase building instead of validating demand or talking to potential customers consistently.
+- I did not engage deeply enough with a clearly defined ideal customer profile. The product direction was driven more by what could be built than by repeated user conversations.
+- The product tried to solve too many problems at once (project management, time tracking, budgeting, integrations) without first winning a narrow, high-value use case.
+- I committed multiple months to building before having strong signals of willingness to pay. By the time I shifted focus to marketing and sales, energy and momentum had already dropped.
+- Integrations and feature depth added complexity early, but did not directly translate into adoption without distribution.
 
 ## What I'd do differently
-- Add contract tests and end-to-end coverage around auth, billing, time tracking, and webhook ingestion earlier.
-- Standardize the frontend on a tighter design system instead of carrying multiple component ecosystems.
-- Move backend configuration toward typed, env-driven settings and a more container-friendly local setup.
-- Introduce a stronger outbox and idempotency strategy for integration-heavy flows.
-- Narrow the ICP harder. The product is most compelling when it is opinionated about agency operations, not when it tries to be generic project management software.
-
-## Screenshots and demo
-Placeholder for a portfolio pass:
-
-- Product walkthrough GIF: dashboard, issues, timesheet, and costing
-- Integration demo: inbound event to issue or notification flow
-- Workspace admin flow: invites, roles, billing, and plan management
-- AI-assisted workflow demo inside issue or page creation
-
-Useful existing assets already live in `ServcyLanding/public/shots/`:
-
-- `dashboard.webp`
-- `issues.webp`
-- `timesheet.webp`
-- `costing.webp`
-- `integrations.webp`
-- `inbox-to-issue.webp`
+- Start with distribution, not code. I would spend the first few weeks talking to agencies, validating pain points, and building a clear ICP before writing significant code.
+- Pre-sell or secure design partners early. Even a few committed or paying customers before launch would have validated direction and created accountability.
+- Build a narrower v1 focused on a single wedge: time tracking + profitability for small agencies, instead of a broad all-in-one system.
+- Allocate equal (or greater) time to marketing and sales as to engineering in the early phase.
+- Ship faster, smaller iterations with real users instead of building a large feature surface in isolation.
+- Use early traction (or lack of it) as a forcing function to refine positioning continuously, not after months of development.
 
 ## Contributing
 This workspace is primarily a product portfolio and source snapshot, not a generic community starter kit.
