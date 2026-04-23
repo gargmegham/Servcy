@@ -1,0 +1,9 @@
+[submodule "ServcyClient"]
+	path = ServcyClient
+	url = https://github.com/gargmegham/ServcyClient
+[submodule "ServcyServer"]
+	path = ServcyServer
+	url = https://github.com/gargmegham/ServcyServer
+[submodule "ServcyLanding"]
+	path = ServcyLanding
+	url = https://github.com/gargmegham/ServcyLanding
