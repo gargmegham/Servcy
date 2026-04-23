@@ -101,26 +101,26 @@ A few architectural choices matter:
 ## Repository structure
 ```text
 .
-├── README.md
-├── ServcyServer/
-│   ├── app/
-│   ├── iam/
-│   ├── integration/
-│   ├── project/
-│   ├── dashboard/
-│   ├── notification/
-│   ├── billing/
-│   └── webhook/
-├── ServcyClient/
-│   ├── web/
-│   ├── packages/ui/
-│   ├── packages/types/
-│   └── packages/editor/
-└── ServcyLanding/
-    ├── pages/
-    ├── components/
-    ├── content/
-    └── public/
+|-- README.md
+|-- ServcyServer/
+|   |-- app/
+|   |-- iam/
+|   |-- integration/
+|   |-- project/
+|   |-- dashboard/
+|   |-- notification/
+|   |-- billing/
+|   \-- webhook/
+|-- ServcyClient/
+|   |-- web/
+|   |-- packages/ui/
+|   |-- packages/types/
+|   \-- packages/editor/
+\-- ServcyLanding/
+    |-- pages/
+    |-- components/
+    |-- content/
+    \-- public/
 ```
 
 ## Getting started
