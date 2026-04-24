@@ -214,17 +214,17 @@ If you want to contribute:
 3. Treat permissions, billing, and integrations as high-risk areas.
 4. Follow the repo-specific contribution guides:
 
-- [ServcyServer/CONTRIBUTING.md](./ServcyServer/CONTRIBUTING.md)
-- [ServcyClient/CONTRIBUTING.md](./ServcyClient/CONTRIBUTING.md)
-- [ServcyLanding/CONTRIBUTING.md](./ServcyLanding/CONTRIBUTING.md)
+- [ServcyServer/CONTRIBUTING.md](https://github.com/gargmegham/ServcyServer/CONTRIBUTING.md)
+- [ServcyClient/CONTRIBUTING.md](https://github.com/gargmegham/ServcyClient/CONTRIBUTING.md)
+- [ServcyLanding/CONTRIBUTING.md](https://github.com/gargmegham/ServcyLanding/CONTRIBUTING.md)
 
 ## License
 The root workspace is licensed under the [MIT License](./LICENSE).
 
 Each shipped product repo also carries its own license file:
 
-- [ServcyServer/LICENSE.txt](./ServcyServer/LICENSE.txt)
-- [ServcyClient/LICENSE.txt](./ServcyClient/LICENSE.txt)
-- [ServcyLanding/LICENSE.txt](./ServcyLanding/LICENSE.txt)
+- [ServcyServer/LICENSE.txt](https://github.com/gargmegham/ServcyServer/LICENSE.txt)
+- [ServcyClient/LICENSE.txt](https://github.com/gargmegham/ServcyClient/LICENSE.txt)
+- [ServcyLanding/LICENSE.txt](https://github.com/gargmegham/ServcyLanding/LICENSE.txt)
 
 If you reuse code from a specific subproject, follow the license shipped with that subproject.
